@@ -1,0 +1,289 @@
+/********************
+	Global
+********************/
+
+.well {
+    background-color: inherit;
+}
+
+body {
+    font-family: "Architects Daughter";
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 10px;
+}
+
+form {
+    padding: 5%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.warning {
+    color: red;
+}
+
+.current-link {
+    border-bottom: 4px solid #006dcc;
+}
+/********************
+	Header
+********************/
+header{
+
+   
+}
+
+.header {
+    padding: 2% 2% 5% 2%;
+}
+
+    /********************
+            Logo
+    ********************/
+
+    .header img {
+        display: inline-block;
+        width: 50px;
+    }
+    
+    .header h1 {
+        font-family: "Walter Turncoat";
+        text-align: left;
+        font-size: 150%;
+    }
+
+    .header p {
+        font-family: "Walter Turncoat";
+    }
+
+    /********************
+        Top Navigation
+    ********************/
+
+    .top-nav {
+        font-family: "Walter Turncoat";
+    }
+
+    .top-nav ul {
+        list-style-type: none;
+        text-align: center;
+        font-size: 100%;
+        
+        margin: 0;
+        margin-top: 5%;
+    }
+
+    .top-nav li {
+        display: inline-block;
+    }
+
+    .top-nav a {
+        color: black;
+        padding: 5% 2% 1% 2%;
+    }
+
+    .top-nav a:hover {
+        color: black;
+        border-bottom: 4px solid #006dcc;
+    }
+    
+    .current_user {
+        font-size: 80%;
+    }
+
+    .jumbotron {
+        background: url('../img/Lonely-tree.jpg') no-repeat center;
+        text-align: center;
+        padding: 5%;
+        margin-top: 1%;
+    }
+
+/********************
+    Main-Content
+********************/
+.page-title {
+    font-family: "Walter Turncoat";
+}
+
+
+    /********************
+        Testimonials
+    ********************/
+
+    .well {
+
+    }
+
+    h1.well {
+        font-size: 150%;
+    }
+
+    .testimonial {
+        height: 400px;
+    }
+
+    .testimonial img {
+        max-height: 150px;
+        box-shadow: 2px 2px 20px 2px rgb(0,0,0,.4);
+    }
+
+    .thumbnail {
+        border: 0px solid #808080;
+        background-color: #FFF;
+        background-color: rgba(255,255,255,0);
+        
+        padding: 10%;
+    }
+/********************
+    Initiatives
+********************/
+
+.initiative-content {
+    width: 55%;
+    margin: 5% auto;
+    font-family: "Architects Daughter";
+}
+
+.initiative-content img {
+    width: 60%;
+    margin: 2% 20%;
+}
+
+.initiative-content h2 {
+    font-size: 200%;
+    padding: 1%;
+}
+
+.initiative-content p {
+    font-size: 120%;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+/********************
+	Footer
+********************/
+
+
+footer {
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: Walter Turncoat;
+}
+
+footer img {
+    width: 50px;
+}
+.footer-nav {
+    
+}
+
+.footer-nav a {
+    color: #555;
+}
+
+.footer-nav a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/****************************
+    Small-screen Devices
+*****************************/
+@media only screen and (max-width: 768px) {
+
+    /****************************
+        Mobile Navigation
+    *****************************/
+
+    a.navbar-brand {
+        padding: 0;
+        width: 70%;
+    }
+
+    .navbar-brand img {
+        display: inline-block;
+        width: 15px;
+    }
+
+    .header h1 {
+        display: inline-block;
+        font-size: 120%;
+        padding-left: 5px;
+    }
+
+    nav li {
+        font-family: "Walter Turncoat";
+        font-size: 120%;
+    }
+
+    /********************
+        Initiatives
+    ********************/
+
+    .initiative-content {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .initiative-content img {
+        width: 80%;
+        margin: 2% 10%;
+    }
+
+    .initiative-content h2 {
+        font-size: 200%;
+        padding: 1%;
+    }
+
+    .initiative-content p {
+        font-size: 120%;
+        text-indent: 2em;
+        line-height: 2em;
+    }
+
+    /********************
+        Footer
+    ********************/
+
+    footer {
+        font-size: 100%;
+    }
+    
+    .footer-container {
+        padding-top: 5%;
+        
+        height: 200px;
+    }
+    
+    footer img {
+        width: 75px;
+        padding-bottom: 5%;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+}
